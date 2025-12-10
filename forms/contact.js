@@ -12,7 +12,6 @@ app.use(upload.none());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Add your Brevo API Key here
 const apiKey = "A5ePMN2tqrWu4oHy7kQ6"; // <-- your API key
 
 const brevoClient = new Brevo.TransactionalEmailsApi();
